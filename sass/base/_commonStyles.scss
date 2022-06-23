@@ -1,0 +1,44 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* outline: 2px solid tomato; */
+
+}
+
+.list {
+    /* display: inline-block; */
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* ------------------button----------------- */
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    color: var(--button-color-white);
+    background-color: var(--fokus-color);
+    border: 1px transparent;
+
+    min-width: 136px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
